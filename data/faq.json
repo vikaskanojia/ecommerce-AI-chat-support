@@ -1,0 +1,82 @@
+[
+  {
+    "id": "faq_shipping_time",
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping takes 4-6 business days. Express shipping takes 1-2 business days and is available at checkout for an extra fee."
+  },
+  {
+    "id": "faq_shipping_intl",
+    "question": "Do you ship internationally?",
+    "answer": "Yes, we ship to over 30 countries. International orders typically take 7-14 business days and may be subject to customs fees charged by your country."
+  },
+  {
+    "id": "faq_return_policy",
+    "question": "What is your return policy?",
+    "answer": "Items can be returned within 30 days of delivery if unused and in original packaging. Some categories (e.g. opened beauty products) are final sale."
+  },
+  {
+    "id": "faq_return_start",
+    "question": "How do I start a return?",
+    "answer": "Go to Order History, select the item, and click 'Start a Return'. You'll receive a prepaid shipping label by email within a few minutes."
+  },
+  {
+    "id": "faq_refund_time",
+    "question": "How long do refunds take?",
+    "answer": "Refunds are issued to your original payment method within 5-7 business days after we receive the returned item."
+  },
+  {
+    "id": "faq_payment_methods",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit and debit cards, PayPal, and store gift cards. We do not currently accept cryptocurrency."
+  },
+  {
+    "id": "faq_order_tracking",
+    "question": "How do I track my order?",
+    "answer": "A tracking link is emailed once your order ships. You can also find it under Order History on your account page."
+  },
+  {
+    "id": "faq_order_cancel",
+    "question": "Can I cancel an order after placing it?",
+    "answer": "Orders can be cancelled within 1 hour of placing them, before they enter processing. After that, please use the return process once it arrives."
+  },
+  {
+    "id": "faq_warranty",
+    "question": "Do products come with a warranty?",
+    "answer": "Electronics carry a 1-year manufacturer warranty against defects. Other categories vary by brand -- check the individual product description for details."
+  },
+  {
+    "id": "faq_coupon",
+    "question": "How do I apply a coupon or promo code?",
+    "answer": "Enter your code in the 'Promo Code' field at checkout before payment. Only one code can be applied per order."
+  },
+  {
+    "id": "faq_password_reset",
+    "question": "How do I reset my account password?",
+    "answer": "Click 'Forgot password' on the login page and enter your email. A reset link will arrive within a few minutes -- check your spam folder if it doesn't."
+  },
+  {
+    "id": "faq_privacy",
+    "question": "How is my personal data used?",
+    "answer": "We use your data only to process orders, provide support, and (with consent) send marketing emails. We never sell personal data to third parties."
+  },
+  {
+    "id": "faq_price_match",
+    "question": "Do you price match other retailers?",
+    "answer": "We price match identical in-stock items from major retailers within 7 days of purchase. Contact support with a link to the lower price to request a match."
+  },
+  {
+    "id": "faq_gift_cards",
+    "question": "Do you sell gift cards?",
+    "answer": "Yes, digital gift cards from $10 to $200 are available and delivered by email within minutes of purchase. Gift cards do not expire."
+  },
+  {
+    "id": "faq_loyalty",
+    "question": "Is there a rewards or loyalty program?",
+    "answer": "Yes -- you earn 1 point per dollar spent, redeemable for discounts once you reach 500 points. Enrollment is free from your account page."
+  },
+  {
+    "id": "faq_contact_support",
+    "question": "How do I contact customer support?",
+    "answer": "Live chat is available 9am-9pm ET on our website, or email support@example-store.com. Typical response time is under 4 hours."
+  }
+]

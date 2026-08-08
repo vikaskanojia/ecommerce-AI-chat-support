@@ -1,0 +1,101 @@
+product_id,product_name,category,brand,price_usd,rating,num_reviews,stock_quantity,color,description
+1001,Cascade Beauty Essential Oil Diffuser,Beauty & Personal Care,Cascade Beauty,10.65,3.8,1079,326,Red,Ultrasonic essential oil diffuser with 7 LED light colors.
+1005,Cascade Beauty Beard Trimmer,Beauty & Personal Care,Cascade Beauty,71.93,3.9,2040,136,Gray,Cordless beard trimmer with 20 length settings and USB charging.
+1006,Velveska Hair Straightener,Beauty & Personal Care,Velveska,23.55,4.9,2872,156,Navy,Ceramic flat iron hair straightener with adjustable temperature.
+1018,Pure & Bloom Sunscreen SPF 50,Beauty & Personal Care,Pure & Bloom,29.78,3.3,2348,120,Red,"Broad-spectrum SPF 50 sunscreen lotion, lightweight and non-greasy, 100ml."
+1033,Cascade Beauty Moisturizing Body Lotion,Beauty & Personal Care,Cascade Beauty,27.02,3.9,1976,353,Blue,"24h hydrating body lotion with shea butter, 150ml."
+1034,Lumina Essential Oil Diffuser,Beauty & Personal Care,Lumina,25.38,4.4,2516,339,Silver,Ultrasonic essential oil diffuser with 7 LED light colors.
+1040,Cascade Beauty Facial Cleanser,Beauty & Personal Care,Cascade Beauty,14.06,3.6,3417,310,Silver,"Gentle foaming facial cleanser for all skin types, 50ml."
+1043,Aurelle Vitamin C Serum,Beauty & Personal Care,Aurelle,31.16,3.6,2324,359,Blue,"Brightening vitamin C serum with hyaluronic acid, 250ml."
+1047,Cascade Beauty Vitamin C Serum,Beauty & Personal Care,Cascade Beauty,70.33,3.5,3630,469,Red,"Brightening vitamin C serum with hyaluronic acid, 32ml."
+1055,Velveska Sunscreen SPF 50,Beauty & Personal Care,Velveska,78.81,4.0,3975,176,Green,"Broad-spectrum SPF 50 sunscreen lotion, lightweight and non-greasy, 30ml."
+1057,Pure & Bloom Facial Cleanser,Beauty & Personal Care,Pure & Bloom,87.07,3.4,2727,445,White,"Gentle foaming facial cleanser for all skin types, 8ml."
+1071,Cascade Beauty Hair Straightener,Beauty & Personal Care,Cascade Beauty,9.07,4.8,2695,468,Silver,Ceramic flat iron hair straightener with adjustable temperature.
+1084,Velveska Makeup Brush Set,Beauty & Personal Care,Velveska,53.17,4.3,2708,343,White,12-piece makeup brush set with synthetic bristles and travel case.
+1085,Velveska Vitamin C Serum,Beauty & Personal Care,Velveska,36.18,4.2,1750,79,Blue,"Brightening vitamin C serum with hyaluronic acid, 250ml."
+1088,Lumina Facial Cleanser,Beauty & Personal Care,Lumina,18.77,4.3,259,46,Pink,"Gentle foaming facial cleanser for all skin types, 60ml."
+1090,Pure & Bloom Electric Toothbrush,Beauty & Personal Care,Pure & Bloom,43.77,4.0,3629,212,Red,Rechargeable electric toothbrush with 5 cleaning modes.
+1092,Aurelle Electric Toothbrush,Beauty & Personal Care,Aurelle,85.45,4.6,2101,148,Green,Rechargeable electric toothbrush with 5 cleaning modes.
+1016,Lantern & Ink Children's Picture Book,Books,Lantern & Ink,32.68,3.4,1100,410,Blue,"Illustrated picture book for ages 3-7, hardcover."
+1029,Lantern & Ink History Book,Books,Lantern & Ink,30.78,4.7,872,221,Green,Narrative history book covering major 20th century events.
+1030,Ferngrove Books Self-Help Guide,Books,Ferngrove Books,24.24,4.9,3968,238,Beige,Practical self-help guide on building better daily habits.
+1037,Northgate Press Children's Picture Book,Books,Northgate Press,13.36,3.5,123,362,Pink,"Illustrated picture book for ages 3-7, hardcover."
+1041,Cobblestone Poetry Collection,Books,Cobblestone,31.07,5.0,2509,291,Silver,"Collection of contemporary poetry, hardcover, 352 pages."
+1044,Cobblestone Mystery Novel,Books,Cobblestone,18.89,4.2,1228,465,Red,"Gripping mystery novel, paperback, 416 pages."
+1053,Northgate Press Cookbook,Books,Northgate Press,18.62,4.1,3876,124,Blue,Illustrated cookbook with 125+ recipes for home cooks.
+1059,Ferngrove Books Children's Picture Book,Books,Ferngrove Books,30.86,4.7,3121,488,Green,"Illustrated picture book for ages 3-7, hardcover."
+1062,Cobblestone Business Strategy Book,Books,Cobblestone,11.89,4.3,3141,317,Navy,Bestselling book on business strategy and leadership.
+1098,Northgate Press Poetry Collection,Books,Northgate Press,28.11,4.6,3685,348,Silver,"Collection of contemporary poetry, hardcover, 352 pages."
+1013,Kryon Power Bank,Electronics,Kryon,81.68,4.4,2753,47,Navy,500mAh portable power bank with dual USB-C fast charging.
+1017,Aerowave Laptop Stand,Electronics,Aerowave,210.17,4.2,1311,380,Blue,"Adjustable aluminum laptop stand, compatible with 11-17 inch laptops."
+1025,Voltix Noise Cancelling Headphones,Electronics,Voltix,238.15,3.6,174,318,Gray,Over-ear headphones with active noise cancellation and 6h battery life.
+1028,Voltix Smartwatch,Electronics,Voltix,202.1,4.2,344,177,Pink,"Fitness smartwatch with heart-rate tracking, GPS, and 6h battery life."
+1036,Kryon USB-C Hub,Electronics,Kryon,60.0,4.5,2273,370,Silver,"7-in-1 USB-C hub with HDMI, SD card reader, and 100W power delivery."
+1045,Pulseon Noise Cancelling Headphones,Electronics,Pulseon,118.19,4.0,2499,358,Beige,Over-ear headphones with active noise cancellation and 30h battery life.
+1054,Aerowave Mechanical Keyboard,Electronics,Aerowave,218.04,3.7,3407,174,Pink,Hot-swappable mechanical keyboard with RGB backlighting.
+1063,Pulseon Wireless Charger,Electronics,Pulseon,74.99,3.2,3819,461,Red,"15W fast wireless charging pad, compatible with Qi-enabled devices."
+1066,Kryon Bluetooth Speaker,Electronics,Kryon,197.29,3.6,2894,112,Navy,Portable speaker with 10h playtime and IPX7 waterproof rating.
+1073,Nexara Wireless Earbuds,Electronics,Nexara,172.55,4.5,3441,300,Gray,In-ear Bluetooth earbuds with active noise cancellation and 6h battery life.
+1089,Kryon Webcam,Electronics,Kryon,88.22,3.8,703,452,Black,1080p HD webcam with autofocus and built-in noise-canceling mic.
+1008,Solstice Running Shoes,Fashion,Solstice,12.66,4.3,2839,373,Green,Lightweight running shoes with breathable mesh upper.
+1050,Ridgeline Leather Wallet,Fashion,Ridgeline,71.24,4.3,4091,320,Blue,Slim bifold leather wallet with RFID-blocking lining.
+1056,Ridgeline Wool Beanie,Fashion,Ridgeline,127.64,3.6,3145,119,Beige,"Ribbed knit beanie, one size fits most, available in multiple colors."
+1068,Maren & Co Cotton T-Shirt,Fashion,Maren & Co,103.94,4.8,3005,271,Pink,"Classic fit crewneck t-shirt, 100% combed cotton."
+1069,Solstice Yoga Leggings,Fashion,Solstice,106.11,4.0,624,72,Navy,High-waisted yoga leggings with four-way stretch fabric.
+1070,Solstice Leather Wallet,Fashion,Solstice,40.25,3.4,3027,344,Red,Slim bifold leather wallet with RFID-blocking lining.
+1082,Solstice Cotton T-Shirt,Fashion,Solstice,60.46,4.8,3397,173,Blue,"Classic fit crewneck t-shirt, 100% combed cotton."
+1087,Urbane Polarized Sunglasses,Fashion,Urbane,30.0,4.5,2539,471,Green,UV400 polarized sunglasses with lightweight aluminum frame.
+1012,Harvestly Granola Mix,Grocery,Harvestly,17.19,4.0,2647,238,Blue,150oz honey oat granola with mixed nuts and dried fruit.
+1014,Pantry Co Dark Chocolate Bars,Grocery,Pantry Co,15.25,4.1,604,233,Beige,Pack of 6 70% cacao dark chocolate bars.
+1015,Wholegrain Market Quinoa,Grocery,Wholegrain Market,10.78,4.4,881,398,Beige,"100lb organic tri-color quinoa, gluten-free."
+1046,Pantry Co Extra Virgin Olive Oil,Grocery,Pantry Co,44.9,4.5,2059,13,White,16ml cold-pressed extra virgin olive oil.
+1049,Rootside Almond Butter,Grocery,Rootside,24.91,3.8,2656,59,Beige,"8oz creamy almond butter, no added sugar."
+1060,Pantry Co Granola Mix,Grocery,Pantry Co,33.02,4.9,1871,382,White,8oz honey oat granola with mixed nuts and dried fruit.
+1067,Rootside Raw Honey,Grocery,Rootside,40.27,3.3,2996,374,Gray,60oz raw unfiltered wildflower honey.
+1072,Pantry Co Green Tea Bags,Grocery,Pantry Co,9.36,3.3,312,155,Blue,Box of 100 organic green tea bags.
+1075,Wholegrain Market Granola Mix,Grocery,Wholegrain Market,22.3,3.5,1008,485,Blue,50oz honey oat granola with mixed nuts and dried fruit.
+1076,Wholegrain Market Sparkling Water,Grocery,Wholegrain Market,49.48,4.6,1689,35,Pink,Pack of 12 naturally flavored sparkling water cans.
+1083,Pantry Co Organic Coffee Beans,Grocery,Pantry Co,21.21,3.5,3893,34,White,"50oz whole bean organic coffee, medium roast."
+1093,Pantry Co Raw Honey,Grocery,Pantry Co,28.49,3.6,2909,36,Beige,8oz raw unfiltered wildflower honey.
+1099,Golden Fields Dark Chocolate Bars,Grocery,Golden Fields,24.22,4.0,2488,407,Red,Pack of 6 70% cacao dark chocolate bars.
+1002,Fresca Electric Kettle,Home & Kitchen,Fresca,24.29,4.8,1229,279,Black,1.7L stainless steel electric kettle with auto shut-off.
+1019,Fresca Throw Blanket,Home & Kitchen,Fresca,82.77,3.5,1760,32,Beige,"Soft fleece throw blanket, 16 inches, machine washable."
+1020,Homely Non-Stick Frying Pan,Home & Kitchen,Homely,168.24,3.9,168,438,Silver,"10-inch non-stick frying pan, oven-safe up to 450F."
+1024,Nestwell Stand Mixer,Home & Kitchen,Nestwell,57.92,3.3,166,383,Pink,40L stand mixer with 6 speed settings and dough hook attachment.
+1026,Kitchura Ceramic Dinnerware Set,Home & Kitchen,Kitchura,142.89,4.6,1382,310,Silver,"16-piece ceramic dinnerware set, microwave and dishwasher safe."
+1035,Homely Food Storage Containers,Home & Kitchen,Homely,76.83,4.0,2519,128,Navy,Set of 10 airtight glass food storage containers with lids.
+1039,Homely Throw Blanket,Home & Kitchen,Homely,193.43,3.7,3921,58,White,"Soft fleece throw blanket, 8 inches, machine washable."
+1048,Fresca Stand Mixer,Home & Kitchen,Fresca,87.58,3.8,864,439,Gray,65L stand mixer with 6 speed settings and dough hook attachment.
+1052,Kitchura Cutting Board Set,Home & Kitchen,Kitchura,27.7,5.0,937,236,White,3-piece bamboo cutting board set with juice grooves.
+1058,Nestwell Food Storage Containers,Home & Kitchen,Nestwell,147.25,3.9,1272,38,Blue,Set of 10 airtight glass food storage containers with lids.
+1061,Brewpoint Ceramic Dinnerware Set,Home & Kitchen,Brewpoint,18.73,4.6,2411,183,Green,"16-piece ceramic dinnerware set, microwave and dishwasher safe."
+1064,Nestwell Coffee Maker,Home & Kitchen,Nestwell,131.39,4.0,2056,233,Red,12-cup programmable drip coffee maker with reusable filter.
+1074,Kitchura Food Storage Containers,Home & Kitchen,Kitchura,16.21,3.9,3640,227,Navy,Set of 10 airtight glass food storage containers with lids.
+1078,Kitchura Electric Kettle,Home & Kitchen,Kitchura,160.09,3.6,2660,8,Gray,1.7L stainless steel electric kettle with auto shut-off.
+1080,Brewpoint Food Storage Containers,Home & Kitchen,Brewpoint,199.72,4.7,3500,351,White,Set of 10 airtight glass food storage containers with lids.
+1086,Nestwell Electric Kettle,Home & Kitchen,Nestwell,154.89,4.2,3523,432,Pink,1.7L stainless steel electric kettle with auto shut-off.
+1096,Fresca Non-Stick Frying Pan,Home & Kitchen,Fresca,175.39,4.5,1823,170,Gray,"10-inch non-stick frying pan, oven-safe up to 450F."
+1097,Brewpoint Throw Blanket,Home & Kitchen,Brewpoint,54.88,3.5,1624,88,Silver,"Soft fleece throw blanket, 50 inches, machine washable."
+1003,Trailhead Jump Rope,Sports & Outdoors,Trailhead,63.78,4.8,334,460,Green,Speed jump rope with ball-bearing swivels and adjustable length.
+1004,Summit Gear Resistance Bands Set,Sports & Outdoors,Summit Gear,175.59,4.5,1947,442,Gray,5-piece resistance band set with varying resistance levels.
+1007,Basecamp Yoga Mat,Sports & Outdoors,Basecamp,174.43,3.7,4181,204,Pink,6mm non-slip yoga mat with carrying strap.
+1011,Basecamp Camping Tent,Sports & Outdoors,Basecamp,44.22,4.4,3113,346,Gray,10-person waterproof camping tent with easy 10-minute setup.
+1022,Summit Gear Sleeping Bag,Sports & Outdoors,Summit Gear,133.65,4.7,1053,318,Pink,"3-season sleeping bag rated to 30F, compression sack included."
+1027,Basecamp Jump Rope,Sports & Outdoors,Basecamp,168.04,4.2,3082,203,Navy,Speed jump rope with ball-bearing swivels and adjustable length.
+1051,Rapidflow Hiking Backpack,Sports & Outdoors,Rapidflow,85.59,4.5,1002,14,Silver,4L hiking backpack with hydration bladder compartment.
+1065,Ironloop Yoga Mat,Sports & Outdoors,Ironloop,108.56,5.0,2426,11,Beige,6mm non-slip yoga mat with carrying strap.
+1079,Summit Gear Camping Tent,Sports & Outdoors,Summit Gear,92.0,4.6,901,231,Pink,4-person waterproof camping tent with easy 10-minute setup.
+1081,Trailhead Resistance Bands Set,Sports & Outdoors,Trailhead,23.02,3.7,2671,195,Silver,5-piece resistance band set with varying resistance levels.
+1094,Summit Gear Cycling Helmet,Sports & Outdoors,Summit Gear,156.82,4.2,3321,363,Beige,Lightweight cycling helmet with adjustable fit dial and 18 vents.
+1095,Summit Gear Hiking Backpack,Sports & Outdoors,Summit Gear,151.77,4.9,729,223,White,5L hiking backpack with hydration bladder compartment.
+1100,Rapidflow Yoga Mat,Sports & Outdoors,Rapidflow,18.31,3.9,2359,39,White,6mm non-slip yoga mat with carrying strap.
+1009,Playforge Card Game,Toys & Games,Playforge,42.67,4.5,21,266,Pink,"Fast-paced card game for 2-8 players, 15 minute playtime."
+1010,Tinkerbots Board Game,Toys & Games,Tinkerbots,95.72,4.4,1028,368,Red,"Strategy board game for 2-6 players, ages 10 and up."
+1021,Brickwork Remote Control Car,Toys & Games,Brickwork,83.49,4.5,1814,249,Navy,"Off-road remote control car with rechargeable battery, 25mph top speed."
+1023,Playforge Remote Control Car,Toys & Games,Playforge,130.82,3.5,2139,194,Green,"Off-road remote control car with rechargeable battery, 15mph top speed."
+1031,Playforge Kids Tablet,Toys & Games,Playforge,46.16,4.0,3814,291,Silver,32-inch kids tablet with parental controls and protective case.
+1032,Playforge Puzzle 1000 Piece,Toys & Games,Playforge,76.2,3.8,2124,174,Red,1000-piece jigsaw puzzle with premium matte finish.
+1038,Funloop Building Block Set,Toys & Games,Funloop,97.84,4.6,848,446,Black,"10-piece building block set, compatible with major brick brands."
+1042,Funloop Kids Tablet,Toys & Games,Funloop,101.09,3.5,1431,282,White,50-inch kids tablet with parental controls and protective case.
+1077,Funloop Plush Toy,Toys & Games,Funloop,45.92,5.0,1072,276,Red,"Soft plush toy, 100 inches, machine washable."
+1091,Wonderkind Building Robot Kit,Toys & Games,Wonderkind,46.78,4.4,3994,269,Red,STEM robot building kit with programmable motors.

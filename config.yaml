@@ -1,0 +1,67 @@
+# Central configuration for the guardrailed ecommerce chatbot.
+#
+# Everything a deployer might want to tune lives here, in one place, rather than
+# scattered across the source files. API keys are NOT here -- those come from
+# environment variables / HF Space secrets (see README.md).
+
+app:
+  title: "Ecommerce Shopping Assistant"
+  subtitle: "Ask about products or store policies -- guarded, traced, and grounded in real catalog data."
+  page_icon: "🛍️"
+
+models:
+  # The agent that actually answers questions and calls tools.
+  agent_model: "openai/gpt-oss-20b"
+  agent_temperature: 0.2
+
+  # Model used for NeMo's policy-check reasoning.
+  nemo_model: "openai/gpt-oss-20b"
+
+  # Bring-your-own-policy safety classifier (Llama Guard's successor on Groq).
+  safety_model: "openai/gpt-oss-safeguard-20b"
+
+  # SDK-level retry cap. Kept low -- our own retry logic (below) handles backoff,
+  # so we don't want the SDK's own retries silently stacking long waits on top.
+  sdk_max_retries: 1
+
+retrieval:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  product_top_k: 5
+  faq_top_k: 2
+
+guardrails:
+  # Both layers can be independently toggled off -- useful for a faster/cheaper demo
+  # mode, or if NeMo Guardrails fails to install in a constrained environment.
+  enable_safety_classifier: true
+  # NeMo disabled: hit a persistent, unreproduced internal error on Streamlit Cloud
+  # ('function' object is not subscriptable) that survived a Python-version change,
+  # an async rewrite, and log cleanup, without ever surfacing a full traceback to
+  # debug against. The safety classifier below has been extended to also cover
+  # off-topic requests, recovering NeMo's main practical role without the instability.
+  enable_nemo_rails: false
+  nemo_config_dir: "guardrails_config"
+
+retry:
+  max_retries: 4
+  # Fallback wait (seconds) when a rate-limit error doesn't include a suggested
+  # retry-after time. Real waits are read from the error message when present.
+  default_backoff_seconds: 8.0
+
+observability:
+  enable_langsmith: true
+  project_name: "ecommerce-chatbot-prod"
+
+data:
+  products_csv: "data/ecommerce_products.csv"
+  faq_json: "data/faq.json"
+
+# USD per token, published Groq rates. Used to compute real dollar cost on traces
+# rather than relying on LangSmith's built-in cost tables, which may not recognize
+# these specific hosted model names.
+pricing:
+  "openai/gpt-oss-20b":
+    input_per_million: 0.075
+    output_per_million: 0.30
+  "openai/gpt-oss-safeguard-20b":
+    input_per_million: 0.075
+    output_per_million: 0.30
