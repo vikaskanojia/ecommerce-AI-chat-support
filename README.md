@@ -1,20 +1,19 @@
-# Guardrailed Ecommerce Shopping Assistant
+# Guarded E-Commerce AI Assistant
 
-A tool-using shopping/FAQ chatbot with two guardrail layers and full LangSmith
-observability, deployed as a Streamlit app on **Streamlit Community Cloud**
-(free, no Docker/paid plan needed).
+🛒 Search products & store policies — protected by active guardrails, real-time tracing,
+and grounded catalog RAG.
 
-- **Agent**: LangGraph, with tools for semantic product search, structured product
-  filtering, and FAQ lookup, over a 100-product catalog + 16-entry FAQ document
-- **Guardrails**: NeMo Guardrails (Colang policy rails) + a Groq-hosted, bring-your-own-policy
-  safety classifier (`openai/gpt-oss-safeguard-20b`), both pre- and post-call
-- **Observability**: every turn traces to LangSmith as one connected tree (classifier →
-  policy check → agent → classifier), with real dollar cost attached per layer
-- **Config-driven**: every model name, threshold, and toggle lives in `config.yaml` --
-  no code changes needed to retune the deployment
+A guarded, config-driven shopping/FAQ assistant implemented as a Streamlit app.
 
-All product/FAQ data is synthetic, generated once at build time (see `_generate_data.py`)
-and committed as static files, so the app starts fast and consistently.
+- **Agent**: uses the configured `agent_model` for tool-enabled QA and product lookup.
+- **Guardrails**: a safety classifier plus optional NeMo rails protect responses.
+- **Observability**: LangSmith tracing is enabled by default in `config.yaml` and
+  attaches per-layer token usage and computed cost to each run tree.
+- **Config-driven**: tune models, toggles, and pricing in `config.yaml` without code
+  changes.
+
+Product and FAQ data are static files in `data/` so the app starts quickly and
+consistently.
 
 ## Deploy on Streamlit Community Cloud
 
@@ -36,16 +35,15 @@ In the app's **Settings → Secrets** (TOML format):
 
 ```toml
 GROQ_API_KEY = "gsk_..."
-LANGSMITH_API_KEY = "lsv2_..."
+LANGSMITH_API_KEY = "lsv2_..."  # optional: enable LangSmith tracing
 ```
 
 | Secret | Required | Notes |
 |---|---|---|
 | `GROQ_API_KEY` | Yes | Free at [console.groq.com](https://console.groq.com) |
-| `LANGSMITH_API_KEY` | No | Free at [smith.langchain.com](https://smith.langchain.com). Omit to run with observability off -- the app degrades gracefully. |
+| `LANGSMITH_API_KEY` | No | Free at [smith.langchain.com](https://smith.langchain.com). When present and `observability.enable_langsmith` is true, traces are sent to LangSmith (project: `ecommerce-chatbot-prod`). |
 
-Never put keys directly in `config.yaml` or any committed file -- Secrets is the only
-place they should live. Saving triggers an automatic restart.
+Never put keys directly in `config.yaml` or any committed file -- use Streamlit Secrets for deployed apps. Saving triggers an automatic restart.
 
 ### 4. Watch it build
 
@@ -54,16 +52,17 @@ The app dashboard shows live build logs. First build installs `nemoguardrails`,
 
 ## Configuration
 
-Everything tunable lives in `config.yaml`:
+All runtime toggles live in `config.yaml`.
 
-- `models` -- which Groq-hosted models power the agent, NeMo, and the safety classifier
-- `retrieval` -- embedding model, how many results each tool returns
-- `guardrails` -- independently toggle the safety classifier and NeMo rails on/off
-- `retry` -- backoff behavior on rate limits
-- `observability` -- toggle LangSmith tracing, set the project name
-- `pricing` -- per-token USD rates, used to compute real cost on traces
+- `app` — UI title, subtitle, and page icon.
+- `models` — agent, NeMo, and safety classifier model names and SDK retry caps.
+- `retrieval` — embedding model and retrieval `top_k` settings for products/FAQ.
+- `guardrails` — enable or disable the safety classifier and NeMo rails.
+- `retry` — retry/backoff behavior for rate-limited calls.
+- `observability` — `enable_langsmith` and `project_name` (defaults to `ecommerce-chatbot-prod`).
+- `pricing` — per-token USD rates used to compute costs attached to traces.
 
-No code changes are needed to retune any of these -- edit `config.yaml`, commit, push.
+Edit `config.yaml` for behavior changes; no source edits are required.
 
 ## Local development
 
@@ -73,17 +72,9 @@ cp .env.example .env   # then edit .env with your real GROQ_API_KEY (and optiona
 streamlit run app.py
 ```
 
-`.env` is read automatically on startup and is gitignored -- it never gets committed.
-If you'd rather not use a file, exporting the variable directly also works:
+`.env` is read automatically on startup and is gitignored. Alternatively, export the secret environment variables in your shell before running.
 
-```bash
-export GROQ_API_KEY=gsk_...
-streamlit run app.py
-```
-
-Either way, **never** put real keys in `config.yaml` or any other committed file --
-`.env` (local) and Streamlit Cloud's Settings → Secrets (deployed) are the only two
-places they should live.
+Always keep secrets out of committed files: use `.env` (local) or Streamlit Secrets (deployed).
 
 ## Folder structure
 

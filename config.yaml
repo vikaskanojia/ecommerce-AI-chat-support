@@ -5,9 +5,9 @@
 # environment variables / HF Space secrets (see README.md).
 
 app:
-  title: "Ecommerce Shopping Assistant"
-  subtitle: "Ask about products or store policies -- guarded, traced, and grounded in real catalog data."
-  page_icon: "🛍️"
+  title: "Guarded E-Commerce AI Assistant"
+  subtitle: "Search products & store policies — protected by active guardrails, real-time tracing, and grounded catalog RAG."
+  page_icon: "🛒"
 
 models:
   # The agent that actually answers questions and calls tools.
